@@ -1,5 +1,5 @@
 import { Link } from 'expo-router';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
@@ -12,6 +12,9 @@ export default function ModalScreen() {
         <ThemedText type="link">Go to home screen</ThemedText>
         <ThemedText type="link">Helå</ThemedText>
       </Link>
+        <View>
+          <ThemedText type="link">Fix enligt PR-kommentar</ThemedText>
+        </View>
     </ThemedView>
   );
 }
