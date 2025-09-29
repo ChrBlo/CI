@@ -9,7 +9,7 @@ import { Link } from 'expo-router';
 
 export default function HomeScreen() {
 
-  const name: string = 123;
+  const name: string = '123';
 
   return (
     <ParallaxScrollView
