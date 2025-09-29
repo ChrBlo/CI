@@ -9,7 +9,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "prettier-check": "npx prettier . --check"
   },
   "dependencies": {
     "@expo/metro-runtime": "~6.1.2",
